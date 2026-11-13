@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- viewport: makes the page fit on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Yarin Aldaheri">
+  <title>Experience | Yarin Aldaheri</title>
+  <link rel="icon" href="images/logo.jpg">
+  <!-- fonts from Google Fonts (Inter + Gochi Hand) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Gochi+Hand&display=swap" rel="stylesheet">
+  <!-- icons: Font Awesome (the <i> tags in the page) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- my css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header + menu -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.jpg" alt="My logo">
+      <span>Yarin Aldaheri</span>
+    </a>
+    <nav>
+      <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="experience.html" class="active"><i class="fa-solid fa-briefcase"></i> Experience</a>
+      <a href="cv.html"><i class="fa-regular fa-file-lines"></i> CV</a>
+      <a href="labs.html"><i class="fa-solid fa-flask"></i> Labs</a>
+      <a href="projects.html"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+      <a href="contact.html"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- page title -->
+    <section class="page-title">
+      <p class="kicker">JEDCO co-op</p>
+      <h1>My <span class="pink">Experience</span></h1>
+      <p>My summer co-op training at Jeddah Airports Company (JEDCO), in the Digital &amp; Technology sector.</p>
+    </section>
+
+    <!-- training info like a boarding pass -->
+    <section class="section">
+      <div class="ticket">
+        <div class="ticket-main">
+          <div class="ticket-top">
+            <img src="images/jedco-logo.png" alt="JEDCO logo">
+            <p>Boarding pass &middot; IT co-op</p>
+          </div>
+          <div class="route">
+            <p><strong>KAU</strong>King Abdulaziz University</p>
+            <p><strong>JED</strong>JEDCO &middot; Digital &amp; Technology</p>
+          </div>
+          <ul class="ticket-info">
+            <li><span>Passenger</span>Yarin Aldaheri</li>
+            <li><span>Role</span>IT Co-op Trainee</li>
+            <li><span>Dates</span>12 Jul - 27 Aug 2026</li>
+            <li><span>Hours</span>200+</li>
+          </ul>
+        </div>
+        <div class="ticket-side">
+          <p><strong>6</strong> weeks</p>
+          <p><strong>4</strong> projects</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 weeks -->
+    <section class="section">
+      <p class="kicker">My route</p>
+      <h2>Week by <span class="pink">week</span></h2>
+
+      <!-- one card for every week -->
+      <div class="weeks">
+        <div class="card week">
+          <span class="week-num">Week 1</span>
+          <h3>Core Systems</h3>
+          <p>I learned how the passenger journey works and how the main airport systems share data with each other.</p>
+        </div>
+
+        <div class="card week">
+          <span class="week-num">Week 2</span>
+          <h3>Strategy &amp; Governance</h3>
+          <p>How business needs become IT goals and KPIs. I planned an IT initiative and prioritised IT projects.</p>
+        </div>
+
+        <div class="card week">
+          <span class="week-num">Week 3</span>
+          <h3>User Support</h3>
+          <p>I designed a service request workflow with HTML forms and prepared laptops for new employees.</p>
+        </div>
+
+        <div class="card week">
+          <span class="week-num">Week 4</span>
+          <h3>Power BI &amp; Power Automate</h3>
+          <p>I cleaned data with Power Query, wrote DAX measures and made an automated HTML email.</p>
+        </div>
+
+        <div class="card week">
+          <span class="week-num">Week 5</span>
+          <h3>Project Management</h3>
+          <p>The IT project lifecycle and how vendors are chosen and followed up.</p>
+        </div>
+
+        <div class="card week">
+          <span class="week-num">Week 6</span>
+          <h3>Network &amp; Cybersecurity</h3>
+          <p>Routers, switches, VLANs, DNS, the CIA triad and how risk is measured.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- what I built -->
+    <section class="section">
+      <p class="kicker">Hands-on</p>
+      <h2>What I <span class="pink">built</span></h2>
+
+      <!-- main project -->
+      <div class="card main-project">
+        <a href="images/jedco-governance.jpg" target="_blank">
+          <img src="images/jedco-governance.jpg" alt="Home page of the IT Strategy and Governance Platform">
+        </a>
+        <div>
+          <span class="label">Main project</span>
+          <h3>IT Strategy &amp; Governance Platform</h3>
+          <p>We built it as a team (Group B). The IT Governance team can follow strategies, objectives, KPIs and the roadmap, and track findings, risks and owners in one place.</p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>UI/UX</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- other tasks -->
+      <div class="small-projects">
+        <div class="card">
+          <h3>IT Service Request Workflow</h3>
+          <p>I designed the full journey of an IT service request, from the moment the employee sends it until it is closed. I drew the workflow with all the steps: submit, manager approval, assign to IT support, fix the issue and close. Then I made simple HTML forms for the requests so the employee fills in the needed information from the start.</p>
+        </div>
+        <div class="card">
+          <h3>Sales &amp; Budget Dashboard</h3>
+          <p>I built an interactive Power BI dashboard that compares the actual sales with the budget. I cleaned and prepared the data with Power Query, wrote DAX measures like total sales, budget variance and YoY %, and added KPI cards, charts and filters by year and country, so the results are easy to read and understand.</p>
+        </div>
+        <div class="card">
+          <h3>New-Employee Email</h3>
+          <p>I designed an HTML welcome email for new employees and connected it to a Power Automate workflow. After the approval steps are done, the email is sent automatically with the first steps the employee needs, like logging in and contacting IT support. This turned a manual task into an automatic one.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills from the training -->
+    <section class="section">
+      <p class="kicker">In my luggage</p>
+      <h2>Skills I <span class="pink">gained</span></h2>
+
+      <div class="two-cols">
+        <div class="card">
+          <h3><i class="fa-solid fa-suitcase-rolling"></i> Technical</h3>
+          <ul class="bag-tags">
+            <li>IT governance</li>
+            <li>KPIs</li>
+            <li>Troubleshooting</li>
+            <li>Device setup</li>
+            <li>Networks</li>
+            <li>Power BI</li>
+            <li>Power Automate</li>
+            <li>HTML &amp; CSS</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3><i class="fa-solid fa-briefcase"></i> Professional</h3>
+          <ul class="bag-tags">
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Problem solving</li>
+            <li>Time management</li>
+            <li>Responsibility</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- challenges -->
+    <section class="section">
+      <p class="kicker">Turbulence</p>
+      <h2>Challenges &amp; <span class="pink">solutions</span></h2>
+
+      <div class="challenges">
+        <div class="card">
+          <h3>Device setup</h3>
+          <p>Many steps: installing Windows, updates and programs.</p>
+          <p class="solution">I followed the steps one by one on every device.</p>
+        </div>
+        <div class="card">
+          <h3>Service requests</h3>
+          <p>Understanding how a request moves from one step to another.</p>
+          <p class="solution">I drew the workflow to see every step clearly.</p>
+        </div>
+        <div class="card">
+          <h3>Power BI</h3>
+          <p>Cleaning the data and writing the DAX measures correctly.</p>
+          <p class="solution">I built the dashboard step by step and checked the totals.</p>
+        </div>
+        <div class="card">
+          <h3>Power Automate</h3>
+          <p>Learning triggers, actions and approvals.</p>
+          <p class="solution">I tested a lot until the email workflow worked.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- thank you note -->
+    <section class="section">
+      <div class="note">
+        <h3>Thank you, JEDCO!</h3>
+        <p>Thank you to the Digital &amp; Technology team for their help, and to my university for this opportunity. It was a great experience.</p>
+      </div>
+
+      <a href="cv.html" class="next-page"><span>Next page</span>My CV &rarr;</a>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2026 Yarin Aldaheri &middot; CPIT-405 &middot; King Abdulaziz University</p>
+  </footer>
+
+</body>
+</html>

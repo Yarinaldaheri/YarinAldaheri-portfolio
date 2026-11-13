@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- viewport: makes the page fit on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Yarin Aldaheri">
+  <title>Contact | Yarin Aldaheri</title>
+  <link rel="icon" href="images/logo.jpg">
+  <!-- fonts from Google Fonts (Inter + Gochi Hand) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Gochi+Hand&display=swap" rel="stylesheet">
+  <!-- icons: Font Awesome (the <i> tags in the page) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- my css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header + menu -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.jpg" alt="My logo">
+      <span>Yarin Aldaheri</span>
+    </a>
+    <nav>
+      <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="experience.html"><i class="fa-solid fa-briefcase"></i> Experience</a>
+      <a href="cv.html"><i class="fa-regular fa-file-lines"></i> CV</a>
+      <a href="labs.html"><i class="fa-solid fa-flask"></i> Labs</a>
+      <a href="projects.html"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+      <a href="contact.html" class="active"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section contact">
+
+      <!-- left side: the form -->
+      <div class="contact-form">
+        <p class="kicker">Contact</p>
+        <h1>Let's <span class="pink">connect</span></h1>
+        <p>Send me a message and I will reply as soon as I can.</p>
+        <p>Or email me: <a href="mailto:yaldaheri0001@stu.kau.edu.sa">yaldaheri0001@stu.kau.edu.sa</a></p>
+
+        <!-- the form uses FormSubmit to send the message to my email -->
+        <form action="https://formsubmit.co/yaldaheri0001@stu.kau.edu.sa" method="POST" class="card">
+          <!-- hidden inputs for FormSubmit (email subject + table design) -->
+          <input type="hidden" name="_subject" value="New message from my portfolio">
+          <input type="hidden" name="_template" value="table">
+
+          <!-- name, email, topic and message -->
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+
+          <label for="topic">Topic:</label>
+          <select id="topic" name="topic">
+            <option>Job or training opportunity</option>
+            <option>Project</option>
+            <option>Question</option>
+            <option>Other</option>
+          </select>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+          <button type="submit" class="btn">Send <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+
+      <!-- right side: a phone with my links -->
+      <div class="phone">
+        <div class="phone-screen">
+          <!-- top of the phone -->
+          <div class="phone-bar">
+            <strong>9:41</strong>
+            <span class="notch"></span>
+            <i class="fa-solid fa-signal"></i>
+          </div>
+
+          <div class="phone-top">
+            <img src="images/avatar.png" alt="My memoji">
+            <p>Good to see you<br><strong>Yarin Aldaheri</strong></p>
+          </div>
+
+          <h2>Let's connect?</h2>
+
+          <!-- 3 buttons -->
+          <div class="phone-tiles">
+            <a href="mailto:yaldaheri0001@stu.kau.edu.sa"><i class="fa-solid fa-envelope"></i><strong>Email</strong></a>
+            <a href="tel:+966533007544"><i class="fa-solid fa-phone"></i><strong>Call</strong></a>
+            <a href="https://github.com/Yarinaldaheri" target="_blank"><i class="fa-brands fa-github"></i><strong>GitHub</strong></a>
+          </div>
+
+          <p class="phone-small">Also find me</p>
+          <a href="https://linkedin.com/in/yarin-abdulaziz" target="_blank" class="phone-link">
+            <i class="fa-brands fa-linkedin"></i>
+            <span><strong>LinkedIn</strong>in/yarin-abdulaziz</span>
+          </a>
+
+          <!-- menu at the bottom of the phone -->
+          <div class="phone-menu">
+            <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="labs.html"><i class="fa-solid fa-flask"></i>Labs</a>
+            <a href="projects.html"><i class="fa-solid fa-diagram-project"></i>Projects</a>
+            <a href="contact.html" class="on"><i class="fa-solid fa-paper-plane"></i>Contact</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2026 Yarin Aldaheri &middot; CPIT-405 &middot; King Abdulaziz University</p>
+  </footer>
+
+</body>
+</html>

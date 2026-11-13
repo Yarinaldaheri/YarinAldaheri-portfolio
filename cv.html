@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- viewport: makes the page fit on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Yarin Aldaheri">
+  <title>CV | Yarin Aldaheri</title>
+  <link rel="icon" href="images/logo.jpg">
+  <!-- fonts from Google Fonts (Inter + Gochi Hand) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Gochi+Hand&display=swap" rel="stylesheet">
+  <!-- icons: Font Awesome (the <i> tags in the page) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- my css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header + menu -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.jpg" alt="My logo">
+      <span>Yarin Aldaheri</span>
+    </a>
+    <nav>
+      <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="experience.html"><i class="fa-solid fa-briefcase"></i> Experience</a>
+      <a href="cv.html" class="active"><i class="fa-regular fa-file-lines"></i> CV</a>
+      <a href="labs.html"><i class="fa-solid fa-flask"></i> Labs</a>
+      <a href="projects.html"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+      <a href="contact.html"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- page title -->
+    <section class="page-title">
+      <p class="kicker">Curriculum Vitae</p>
+      <h1>My <span class="pink">CV</span></h1>
+      <p>My education, skills, experience and certificates.</p>
+    </section>
+
+    <!-- the cv paper with two pieces of tape -->
+    <section class="section">
+      <div class="cv">
+        <span class="tape left"></span>
+        <span class="tape right"></span>
+
+        <div class="cv-top">
+          <h2>Yarin Abdulaziz Aldaheri</h2>
+          <p>Information Technology Student | Data &amp; AI</p>
+        </div>
+
+        <div class="cv-body">
+
+          <!-- left side -->
+          <aside class="cv-side">
+            <h3>Contact Information</h3>
+            <ul>
+              <li><a href="mailto:yaldaheri0001@stu.kau.edu.sa">yaldaheri0001@stu.kau.edu.sa</a></li>
+              <li><a href="tel:+966533007544">+966&nbsp;53&nbsp;300&nbsp;7544</a></li>
+              <li><a href="https://github.com/Yarinaldaheri" target="_blank">github.com/Yarinaldaheri</a></li>
+              <li><a href="https://linkedin.com/in/yarin-abdulaziz" target="_blank">linkedin.com/in/yarin-abdulaziz</a></li>
+              <li>Jeddah, Saudi Arabia</li>
+            </ul>
+
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>Python (Pandas, NumPy, Matplotlib)</li>
+              <li>Data Analysis &amp; Cleaning</li>
+              <li>Power BI</li>
+              <li>Excel</li>
+              <li>SQL (MySQL)</li>
+              <li>HTML &amp; CSS</li>
+              <li>Java</li>
+            </ul>
+
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Problem Solving</li>
+              <li>Teamwork</li>
+              <li>Communication</li>
+              <li>Time Management</li>
+            </ul>
+
+            <h3>Languages</h3>
+            <ul>
+              <li>Arabic</li>
+              <li>English</li>
+            </ul>
+          </aside>
+
+          <!-- right side -->
+          <div class="cv-main">
+            <h3>Profile</h3>
+            <p>Information Technology student interested in data analysis and artificial intelligence. I worked with real datasets, cleaned data and built dashboards using Python and Power BI.</p>
+
+            <h3>Education</h3>
+            <p><strong>Bachelor of Information Technology</strong><br>King Abdulaziz University, Jeddah<br>2022 - Present</p>
+
+            <h3>Experience</h3>
+            <p><strong>IT Summer Co-op Trainee</strong> - Jeddah Airports Company (JEDCO)<br>Summer 2026 &middot; 200+ hours<br>IT Governance, User Support, Power BI, Network &amp; Cybersecurity</p>
+
+            <h3>Projects</h3>
+            <ul>
+              <li><strong>Raqeeb</strong> (graduation project) - a platform that analyzes smart-meter data and highlights unusual consumption.</li>
+              <li><strong>Crime Pattern Analysis</strong> - data cleaning and analysis with Python.</li>
+              <li><strong>Content Analytics Dashboard</strong> - Power BI dashboard.</li>
+              <li><strong>Industry Bridge</strong> - AI platform at the Nahj hackathon.</li>
+            </ul>
+
+            <h3>Certifications &amp; Achievements</h3>
+            <ul>
+              <li><strong>Junior Data Science Certificate</strong> - Saudi Digital Academy &amp; INE (2024)</li>
+              <li><strong>Introduction to Artificial Intelligence</strong> - KAUST Academy (2025)</li>
+              <li><strong>Forward Program</strong> - McKinsey.org (2025)</li>
+              <li><strong>Nahj Smart Learning Hackathon</strong> - participant (2025)</li>
+              <li><strong>Outstanding Member</strong> - Cultural &amp; Artistic Committee, FCIT (2024 - 2025)</li>
+            </ul>
+
+            <h3>Activities</h3>
+            <p>Documentation team leader and event photographer in the Cultural &amp; Artistic Committee at FCIT.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- certificates -->
+    <section class="section" id="certificates">
+      <p class="kicker">Certificates</p>
+      <h2>Real learning, <span class="pink">real results</span></h2>
+
+      <div class="cert-grid">
+        <!-- certificate 1 -->
+        <article class="card cert" id="cert-1">
+          <a href="images/cert-ine.jpg" target="_blank"><img src="images/cert-ine.jpg" alt="Junior Data Science certificate"></a>
+          <h3>Jr. Data Science Certificate</h3>
+          <p class="cert-from">INE &amp; Saudi Digital Academy &middot; 2024</p>
+          <p>Python (Pandas, NumPy, Matplotlib) for cleaning and exploring data, and statistics.</p>
+        </article>
+
+        <!-- certificate 2 -->
+        <article class="card cert" id="cert-2">
+          <a href="images/cert-kaust.jpg" target="_blank"><img src="images/cert-kaust.jpg" alt="Introduction to AI certificate"></a>
+          <h3>Introduction to AI</h3>
+          <p class="cert-from">KAUST Academy &middot; 2025</p>
+          <p>40 hours about machine learning, neural networks and deep learning with PyTorch.</p>
+        </article>
+
+        <!-- certificate 3 -->
+        <article class="card cert" id="cert-3">
+          <a href="images/cert-mckinsey.jpg" target="_blank"><img src="images/cert-mckinsey.jpg" alt="Forward Program certificate"></a>
+          <h3>Forward Program</h3>
+          <p class="cert-from">McKinsey.org &middot; 2025</p>
+          <p>Structured problem solving, communication and digital tools.</p>
+        </article>
+
+        <!-- certificate 4 -->
+        <article class="card cert" id="cert-4">
+          <a href="images/cert-nahj.jpg" target="_blank"><img src="images/cert-nahj.jpg" alt="Nahj Hackathon certificate"></a>
+          <h3>Nahj Smart Learning Hackathon</h3>
+          <p class="cert-from">FCIT, KAU &middot; 2025</p>
+          <p>Our team built Industry Bridge, an AI platform for career readiness.</p>
+        </article>
+
+        <!-- certificate 5 -->
+        <article class="card cert" id="cert-5">
+          <a href="images/cert-committee.jpg" target="_blank"><img src="images/cert-committee.jpg" alt="Outstanding Member certificate"></a>
+          <h3>Outstanding Member</h3>
+          <p class="cert-from">Cultural &amp; Artistic Committee, FCIT &middot; 2025</p>
+          <p>For leading the Documentation team and taking photos of the events.</p>
+        </article>
+      </div>
+
+      <a href="labs.html" class="next-page"><span>Next page</span>My Labs &rarr;</a>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2026 Yarin Aldaheri &middot; CPIT-405 &middot; King Abdulaziz University</p>
+  </footer>
+
+</body>
+</html>

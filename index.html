@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- viewport: makes the page fit on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Yarin Aldaheri">
+  <title>Yarin Aldaheri | Portfolio</title>
+  <link rel="icon" href="images/logo.jpg">
+  <!-- fonts from Google Fonts (Inter + Gochi Hand) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Gochi+Hand&display=swap" rel="stylesheet">
+  <!-- icons: Font Awesome (the <i> tags in the page) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- logos of the tools: Devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+  <!-- my css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header + menu -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.jpg" alt="My logo">
+      <span>Yarin Aldaheri</span>
+    </a>
+    <nav>
+      <a href="index.html" class="active"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="experience.html"><i class="fa-solid fa-briefcase"></i> Experience</a>
+      <a href="cv.html"><i class="fa-regular fa-file-lines"></i> CV</a>
+      <a href="labs.html"><i class="fa-solid fa-flask"></i> Labs</a>
+      <a href="projects.html"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+      <a href="contact.html"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- hero -->
+    <section class="hero">
+      <!-- left side: text -->
+      <div class="hero-text">
+        <p class="badge"><i class="fa-regular fa-id-card"></i> Student ID: 2307260</p>
+        <p class="badge"><i class="fa-solid fa-building-columns"></i> KAU &middot; FCIT</p>
+        <p class="badge open"><span class="dot"></span> Open to opportunities</p>
+
+        <h1>Welcome to <span class="pink">Yarin Aldaheri</span>'s website!</h1>
+        <p class="subtitle"><span>Welcome! Here is my work that I'm proud to share.</span></p>
+        <p>Hi, I'm <strong>Yarin Abdulaziz Aldaheri</strong>, an IT student at King Abdulaziz University who loves data and AI. Scroll down to see my work!</p>
+
+        <a href="#about" class="btn">About me <i class="fa-solid fa-arrow-down"></i></a>
+        <a href="https://github.com/Yarinaldaheri" target="_blank" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+
+      <!-- right side: my desk picture -->
+      <div class="hero-img">
+        <img src="images/hero-desk.png" alt="My memoji on a computer on a desk">
+      </div>
+    </section>
+
+    <!-- about me -->
+    <section class="section" id="about">
+      <p class="kicker">About me</p>
+      <h2>Get to know <span class="pink">me</span></h2>
+
+      <!-- about me written on a notebook page -->
+      <div class="about">
+        <div class="notebook">
+          <h3>Hello!</h3>
+          <p>I am <span class="highlight">Yarin Abdulaziz Aldaheri</span>, a Bachelor's student in Information Technology at the Faculty of Computing and Information Technology, King Abdulaziz University in Jeddah. I am interested in <span class="highlight">data science</span> and <span class="highlight">artificial intelligence</span>, and I like learning new tools all the time.</p>
+          <p>I did my co-op training at <span class="highlight">Jeddah Airports Company (JEDCO)</span>, where I worked with different IT teams like IT Governance, User Support and Network.</p>
+          <p>I also have the Junior Data Science Certificate (SDA &amp; INE), the Introduction to AI program from KAUST Academy, and the Forward Program from McKinsey.org.</p>
+          <p>Right now I am working on my graduation project <span class="highlight">Raqeeb</span>, a platform that analyzes smart-meter data, highlights unusual consumption patterns and helps prioritize cases for further review.</p>
+        </div>
+
+        <!-- sticky notes -->
+        <div>
+          <aside class="sticky">
+            <h3>Quick info &#9998;</h3>
+            <ul>
+              <li>IT student at KAU</li>
+              <li>Data &amp; AI</li>
+              <li>Co-op at JEDCO</li>
+              <li>Jeddah, Saudi Arabia</li>
+              <li>Arabic, English</li>
+            </ul>
+          </aside>
+          <p class="sticky pink-note">"Every dataset has a story, and I love finding it."</p>
+        </div>
+      </div>
+
+      <a href="cv.html" class="btn">See my CV</a>
+    </section>
+
+    <!-- experience -->
+    <section class="section" id="experience">
+      <p class="kicker">Experience</p>
+      <h2>Where I learned <span class="pink">by doing</span></h2>
+
+      <div class="exp">
+        <!-- photo like a polaroid -->
+        <a href="images/jedco-building.jpg" target="_blank" class="polaroid">
+          <img src="images/jedco-building.jpg" alt="JEDCO building in Jeddah">
+          <span>JEDCO &middot; Summer 2026</span>
+        </a>
+
+        <div>
+          <div class="company">
+            <img src="images/jedco-logo.png" alt="JEDCO logo">
+            <div>
+              <h3>IT Summer Co-op Trainee</h3>
+              <p>Jeddah Airports Company (JEDCO) &middot; Summer 2026 &middot; 200+ hours</p>
+            </div>
+          </div>
+          <p>During my training I moved between several IT teams and saw how technology supports the airport every day.</p>
+
+          <!-- what I did -->
+          <h4>What I worked on:</h4>
+          <ul class="work-list">
+            <li><strong>IT Strategy &amp; Governance Platform</strong> - a web system we built as a team (HTML, CSS, JavaScript)</li>
+            <li><strong>IT Service Request Workflow</strong> - the request steps and the forms</li>
+            <li><strong>Sales &amp; Budget Dashboard</strong> - Power BI</li>
+            <li><strong>New-Employee Email</strong> - HTML email with Power Automate</li>
+          </ul>
+
+          <a href="experience.html" class="btn">More about my training</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- tools -->
+    <section class="section" id="tools">
+      <p class="kicker">My toolkit</p>
+      <h2>Tools I <span class="pink">use</span></h2>
+
+      <!-- languages -->
+      <h3 class="tools-title">Languages</h3>
+      <ul class="tools">
+        <li><i class="devicon-python-plain colored"></i> Python</li>
+        <li><i class="devicon-java-plain colored"></i> Java</li>
+        <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+        <li><i class="devicon-html5-plain colored"></i> HTML</li>
+        <li><i class="devicon-css3-plain colored"></i> CSS</li>
+      </ul>
+
+      <!-- data and ai -->
+      <h3 class="tools-title">Data &amp; AI</h3>
+      <ul class="tools">
+        <li><i class="devicon-pandas-plain"></i> Pandas</li>
+        <li><i class="devicon-numpy-plain colored"></i> NumPy</li>
+        <li><i class="devicon-matplotlib-plain colored"></i> Matplotlib</li>
+        <li><i class="fa-solid fa-chart-column"></i> Power BI</li>
+        <li><i class="fa-solid fa-table"></i> Excel</li>
+        <li><i class="devicon-mysql-original colored"></i> MySQL</li>
+        <li><i class="devicon-pytorch-original colored"></i> PyTorch</li>
+        <li><i class="devicon-scikitlearn-plain colored"></i> Scikit-learn</li>
+      </ul>
+
+      <!-- other tools -->
+      <h3 class="tools-title">Other tools</h3>
+      <ul class="tools">
+        <li><i class="devicon-jupyter-plain colored"></i> Jupyter</li>
+        <li><i class="devicon-googlecolab-plain colored"></i> Google Colab</li>
+        <li><i class="devicon-git-plain colored"></i> Git</li>
+        <li><i class="devicon-github-original"></i> GitHub</li>
+        <li><i class="devicon-vscode-plain colored"></i> VS Code</li>
+        <li><i class="devicon-figma-plain colored"></i> Figma</li>
+      </ul>
+    </section>
+
+    <!-- soft skills -->
+    <section class="section" id="soft-skills">
+      <p class="kicker">Soft skills</p>
+      <h2>How I <span class="pink">work</span></h2>
+
+      <div class="folders">
+        <!-- soft skill 1 -->
+        <div class="folder-card">
+          <div class="folder">
+            <img src="images/folder.png" alt="">
+            <span><i class="fa-solid fa-lightbulb"></i></span>
+          </div>
+          <h3>Problem Solving</h3>
+          <p>I break a big problem into small steps and solve it one by one.</p>
+        </div>
+
+        <!-- soft skill 2 -->
+        <div class="folder-card">
+          <div class="folder">
+            <img src="images/folder.png" alt="">
+            <span><i class="fa-solid fa-people-group"></i></span>
+          </div>
+          <h3>Teamwork</h3>
+          <p>Like in the Nahj hackathon and the team tasks in my training.</p>
+        </div>
+
+        <!-- soft skill 3 -->
+        <div class="folder-card">
+          <div class="folder">
+            <img src="images/folder.png" alt="">
+            <span><i class="fa-solid fa-comments"></i></span>
+          </div>
+          <h3>Communication</h3>
+          <p>I can explain data and results in a clear and simple way.</p>
+        </div>
+
+        <!-- soft skill 4 -->
+        <div class="folder-card">
+          <div class="folder">
+            <img src="images/folder.png" alt="">
+            <span><i class="fa-solid fa-calendar-check"></i></span>
+          </div>
+          <h3>Time Management</h3>
+          <p>I plan my week between courses, labs and activities.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section class="section" id="projects">
+      <p class="kicker">Projects</p>
+      <h2>What I <span class="pink">built</span></h2>
+
+      <div class="projects-list">
+        <!-- project 1 -->
+        <article class="card project-row">
+          <img src="images/jedco-governance.jpg" alt="IT Strategy and Governance Platform">
+          <div>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>UI/UX</li></ul>
+            <h3>IT Strategy &amp; Governance Platform</h3>
+            <p class="project-sub">JEDCO &middot; team project</p>
+            <p>A web platform for the IT Governance team at JEDCO to follow strategies, KPIs, risks and findings in one place.</p>
+            <a href="experience.html" class="more-link">Read more &rarr;</a>
+          </div>
+        </article>
+
+        <!-- project 2 -->
+        <article class="card project-row">
+          <img src="images/project-crime.png" alt="Crime data analysis notebook">
+          <div>
+            <ul class="tags"><li>Python</li><li>Pandas</li><li>Matplotlib</li></ul>
+            <h3>Crime Pattern Analysis</h3>
+            <p class="project-sub">Exploratory Data Analysis</p>
+            <p>I cleaned a big crime dataset and used charts to find trends and high-risk areas.</p>
+            <a href="https://github.com/Yarin-Abdulaziz/Exploratory-Analysis-of-LA-Crime-Data" target="_blank" class="more-link">View on GitHub &rarr;</a>
+          </div>
+        </article>
+
+        <!-- project 3 -->
+        <article class="card project-row">
+          <img src="images/project-dashboard.png" alt="Power BI dashboard">
+          <div>
+            <ul class="tags"><li>Power BI</li><li>Data Visualization</li></ul>
+            <h3>Content Analytics Dashboard</h3>
+            <p class="project-sub">Power BI</p>
+            <p>A Power BI dashboard for Amazon Prime Video content by genre, rating and year.</p>
+            <a href="https://github.com/Yarin-Abdulaziz/PrimeVedio-PowerBi-Dashboard" target="_blank" class="more-link">View on GitHub &rarr;</a>
+          </div>
+        </article>
+
+        <!-- project 4 -->
+        <article class="card project-row">
+          <img src="images/project-industry-bridge.jpg" alt="Industry Bridge platform">
+          <div>
+            <ul class="tags"><li>AI</li><li>Hackathon</li><li>Teamwork</li></ul>
+            <h3>Industry Bridge</h3>
+            <p class="project-sub">Nahj Smart Learning Hackathon</p>
+            <p>An AI platform that compares student skills with the job market and gives them feedback.</p>
+            <a href="images/cert-nahj.jpg" target="_blank" class="more-link">See certificate &rarr;</a>
+          </div>
+        </article>
+      </div>
+
+      <a href="projects.html" class="btn">All projects</a>
+    </section>
+
+    <!-- certificates -->
+    <section class="section" id="certificates">
+      <p class="kicker">Certificates</p>
+      <h2>Real learning, <span class="pink">real results</span></h2>
+
+      <!-- certificates hanging on a line with clips -->
+      <div class="cert-line">
+        <a href="cv.html#cert-1"><img src="images/cert-ine.jpg" alt="Junior Data Science certificate"><span><strong>Jr. Data Science</strong>INE &amp; SDA</span></a>
+        <a href="cv.html#cert-2"><img src="images/cert-kaust.jpg" alt="Introduction to AI certificate"><span><strong>Intro to AI</strong>KAUST Academy</span></a>
+        <a href="cv.html#cert-3"><img src="images/cert-mckinsey.jpg" alt="Forward Program certificate"><span><strong>Forward Program</strong>McKinsey.org</span></a>
+        <a href="cv.html#cert-4"><img src="images/cert-nahj.jpg" alt="Nahj Hackathon certificate"><span><strong>Nahj Hackathon</strong>FCIT &middot; KAU</span></a>
+        <a href="cv.html#cert-5"><img src="images/cert-committee.jpg" alt="Outstanding Member certificate"><span><strong>Outstanding Member</strong>FCIT Committee</span></a>
+      </div>
+    </section>
+
+    <!-- contact box -->
+    <section class="section">
+      <div class="contact-box">
+        <div>
+          <p class="kicker">Let's connect</p>
+          <h2>Open to <span class="pink">new opportunities</span></h2>
+          <p>If you have a role, a project or a question about data and AI, I would love to hear from you.</p>
+          <p class="badge open"><span class="dot"></span> Available now</p>
+          <a href="contact.html" class="btn">Contact me &rarr;</a>
+        </div>
+
+        <!-- my info -->
+        <ul class="info-card">
+          <li><span><i class="fa-solid fa-user"></i> Full Name</span> Yarin Abdulaziz Aldaheri</li>
+          <li><span><i class="fa-solid fa-id-card"></i> Student ID</span> 2307260</li>
+          <li><span><i class="fa-solid fa-graduation-cap"></i> Major</span> Information Technology</li>
+          <li><span><i class="fa-solid fa-location-dot"></i> Location</span> Jeddah, Saudi Arabia</li>
+          <li><span><i class="fa-solid fa-envelope"></i> Email</span> <a href="mailto:yaldaheri0001@stu.kau.edu.sa">yaldaheri0001@stu.kau.edu.sa</a></li>
+          <li><span><i class="fa-solid fa-phone"></i> Phone</span> <a href="tel:+966533007544">+966&nbsp;53&nbsp;300&nbsp;7544</a></li>
+          <li><span><i class="fa-brands fa-github"></i> GitHub</span> <a href="https://github.com/Yarinaldaheri" target="_blank">Yarinaldaheri</a></li>
+          <li><span><i class="fa-brands fa-linkedin"></i> LinkedIn</span> <a href="https://linkedin.com/in/yarin-abdulaziz" target="_blank">yarin-abdulaziz</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2026 Yarin Aldaheri &middot; CPIT-405 &middot; King Abdulaziz University</p>
+  </footer>
+
+</body>
+</html>

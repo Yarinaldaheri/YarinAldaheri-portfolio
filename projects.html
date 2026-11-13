@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- viewport: makes the page fit on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Yarin Aldaheri">
+  <title>Projects | Yarin Aldaheri</title>
+  <link rel="icon" href="images/logo.jpg">
+  <!-- fonts from Google Fonts (Inter + Gochi Hand) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Gochi+Hand&display=swap" rel="stylesheet">
+  <!-- icons: Font Awesome (the <i> tags in the page) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- my css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header + menu -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.jpg" alt="My logo">
+      <span>Yarin Aldaheri</span>
+    </a>
+    <nav>
+      <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="experience.html"><i class="fa-solid fa-briefcase"></i> Experience</a>
+      <a href="cv.html"><i class="fa-regular fa-file-lines"></i> CV</a>
+      <a href="labs.html"><i class="fa-solid fa-flask"></i> Labs</a>
+      <a href="projects.html" class="active"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+      <a href="contact.html"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- page title -->
+    <section class="page-title">
+      <p class="kicker">My work</p>
+      <h1>My <span class="pink">Projects</span></h1>
+      <p>Projects I worked on in university, in my training and in a hackathon.</p>
+    </section>
+
+    <section class="section">
+      <!-- project 1 -->
+      <article class="card project-row">
+        <img src="images/jedco-governance.jpg" alt="IT Strategy and Governance Platform">
+        <div>
+          <h2>IT Strategy &amp; Governance Platform</h2>
+          <p class="project-sub">JEDCO co-op &middot; team project</p>
+          <p>A web platform for the IT Governance team at JEDCO. It brings strategies, objectives, KPIs, risks and findings into one place.</p>
+          <ul>
+            <li>Built with my team (Group B) during my training</li>
+            <li>Pages for strategies, KPIs, findings and risks</li>
+            <li>A dashboard and reminders</li>
+          </ul>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>UI/UX</li>
+          </ul>
+          <a href="experience.html" class="btn btn-small">Read more</a>
+        </div>
+      </article>
+
+      <!-- project 2 -->
+      <article class="card project-row">
+        <img src="images/project-crime.png" alt="Crime data analysis notebook">
+        <div>
+          <h2>Crime Pattern Analysis</h2>
+          <p class="project-sub">Exploratory Data Analysis</p>
+          <p>I cleaned a large crime dataset (2020 - present), then analysed it with charts to find trends and high-risk areas.</p>
+          <ul>
+            <li>Loaded the data with Pandas</li>
+            <li>Handled missing values and outliers</li>
+            <li>Made charts with Matplotlib</li>
+          </ul>
+          <ul class="tags">
+            <li>Python</li>
+            <li>Pandas</li>
+            <li>Matplotlib</li>
+          </ul>
+          <a href="https://github.com/Yarin-Abdulaziz/Exploratory-Analysis-of-LA-Crime-Data" target="_blank" class="btn btn-small">View on GitHub</a>
+        </div>
+      </article>
+
+      <!-- project 3 -->
+      <article class="card project-row">
+        <img src="images/project-dashboard.png" alt="Power BI dashboard">
+        <div>
+          <h2>Content Analytics Dashboard</h2>
+          <p class="project-sub">Power BI</p>
+          <p>An interactive dashboard of Amazon Prime Video content that shows ratings, genres, countries and releases over the years.</p>
+          <ul>
+            <li>Cleaned the data in Power BI</li>
+            <li>Added charts, KPI cards and slicers</li>
+            <li>Compared content by genre and year</li>
+          </ul>
+          <ul class="tags">
+            <li>Power BI</li>
+            <li>Data Visualization</li>
+          </ul>
+          <a href="https://github.com/Yarin-Abdulaziz/PrimeVedio-PowerBi-Dashboard" target="_blank" class="btn btn-small">View on GitHub</a>
+        </div>
+      </article>
+
+      <!-- project 4 -->
+      <article class="card project-row">
+        <img src="images/project-industry-bridge.jpg" alt="Industry Bridge platform">
+        <div>
+          <h2>Industry Bridge</h2>
+          <p class="project-sub">Nahj Smart Learning Hackathon</p>
+          <p>An AI platform that checks students' skills, compares them with the job market and gives them feedback.</p>
+          <ul>
+            <li>Worked with my team in the hackathon</li>
+            <li>Helped with the idea and the features</li>
+          </ul>
+          <ul class="tags">
+            <li>AI</li>
+            <li>Teamwork</li>
+          </ul>
+          <a href="images/cert-nahj.jpg" target="_blank" class="btn btn-small">See certificate</a>
+        </div>
+      </article>
+
+      <a href="contact.html" class="next-page"><span>Next page</span>Contact me &rarr;</a>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2026 Yarin Aldaheri &middot; CPIT-405 &middot; King Abdulaziz University</p>
+  </footer>
+
+</body>
+</html>
