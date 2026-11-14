@@ -1523,4 +1523,22 @@ footer {
   .route strong {
     font-size: 32px;
   }
+
+  /* smaller menu on phones */
+  nav a {
+    padding: 7px 12px;
+    font-size: 14px;
+  }
+
+  /* logo on top and the text under it */
+  .ticket-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .ticket-top p {
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
 }
