@@ -74,6 +74,12 @@ header {
   border-radius: 10px;
 }
 
+/* the menu button only shows on phones */
+#menu-btn,
+.menu-icon {
+  display: none;
+}
+
 nav {
   padding: 5px;
   border-radius: 30px;
@@ -1381,17 +1387,39 @@ footer {
 
 /* smaller tablets */
 @media (max-width: 900px) {
+  /* logo on the left, menu button on the right */
   header {
     position: static;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 10px;
   }
 
+  .menu-icon {
+    display: block;
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: 1px solid #4a3a66;
+    color: #f1ecfa;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  /* the menu is hidden until the button is clicked */
   nav {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
     border-radius: 20px;
-    text-align: center;
+  }
+
+  #menu-btn:checked ~ nav {
+    display: block;
+  }
+
+  nav a {
+    display: block;
   }
 
   .hero h1 {
@@ -1400,10 +1428,6 @@ footer {
 
   .section {
     padding: 55px 24px;
-  }
-
-  nav a {
-    margin: 3px;
   }
 
   .hero {
@@ -1524,10 +1548,11 @@ footer {
     font-size: 32px;
   }
 
-  /* smaller menu on phones */
-  nav a {
-    padding: 7px 12px;
-    font-size: 14px;
+  /* smaller badges on phones */
+  .hero-text .badge {
+    margin: 0 3px 8px;
+    padding: 6px 12px;
+    font-size: 13px;
   }
 
   /* logo on top and the text under it */
